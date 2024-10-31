@@ -83,3 +83,9 @@ pm.start_servers = 5
 pm.min_spare_servers = 5
 pm.max_spare_servers = 35
 EOF
+
+# Secure installation
+sudo mysql_secure_installation
+
+# Create admin user
+sudo mysql -u root -p
